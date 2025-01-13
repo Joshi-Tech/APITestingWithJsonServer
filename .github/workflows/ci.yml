@@ -17,22 +17,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Set up Node.js (required for JSON Server)
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-
-      # Install dependencies (JSON Server and your project dependencies)
-      - name: Install dependencies
-        run: |
-          npm install -g json-server
-          npm install
-
       # Start JSON Server
       - name: Start JSON Server
         run: |
-          json-server --watch employees.json --port 3000 &
+          npx json-server employees.json --port 3000 &
         env:
           CI: true
 
@@ -43,12 +31,13 @@ jobs:
       # Run your API tests
       - name: Run API Tests
         run: |
-          mvn clean test 
+          mvn clean test # Replace with your test command if different
 
-      # Stop the JSON Server
+      # Stop JSON Server
       - name: Stop JSON Server
         run: |
           kill $(lsof -t -i:3000)
+
 
 
 

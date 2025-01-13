@@ -1,0 +1,102 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "position": "Software Engineer",
+      "department": "Development",
+      "salary": {
+        "base": 80000,
+        "bonus": 5000
+      },
+      "contact": {
+        "email": "alice.johnson@example.com",
+        "phone": "123-456-7890"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "position": "QA Analyst",
+      "department": "Quality Assurance",
+      "salary": {
+        "base": 60000,
+        "bonus": 3000
+      },
+      "contact": {
+        "email": "bob.smith@example.com",
+        "phone": "987-654-3210"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Charlie Davis",
+      "position": "DevOps Engineer",
+      "department": "Infrastructure",
+      "salary": {
+        "base": 95000,
+        "bonus": 7000
+      },
+      "contact": {
+        "email": "charlie.davis@example.com",
+        "phone": "555-678-1234"
+      }
+    },
+    {
+      "id": "1e34",
+      "contact": {
+        "phone": "7878998989",
+        "email": "harishNNNN.sharma@example.com"
+      },
+      "name": "Harish Sharma",
+      "position": "Mechanical Engineer",
+      "department": "Engineering",
+      "salary": {
+        "phone": 3291,
+        "email": 25809
+      }
+    },
+    {
+      "id": "7b4d",
+      "contact": {
+        "phone": "7878998989",
+        "email": "harishNNNN.sharma@example.com"
+      },
+      "name": "Harish Sharma",
+      "position": "Mechanical Engineer",
+      "department": "Engineering",
+      "salary": {
+        "phone": 3291,
+        "email": 25809
+      }
+    },
+    {
+      "id": "9a03",
+      "contact": {
+        "phone": "7878998989",
+        "email": "harishNNNN.sharma@example.com"
+      },
+      "name": "Harish Sharma",
+      "position": "Mechanical Engineer",
+      "department": "Engineering",
+      "salary": {
+        "phone": 3291,
+        "email": 25809
+      }
+    },
+    {
+      "id": "c3f9",
+      "contact": {
+        "phone": "7878998989",
+        "email": "harishNNNN.sharma@example.com"
+      },
+      "name": "Harish Sharma",
+      "position": "Mechanical Engineer",
+      "department": "Engineering",
+      "salary": {
+        "phone": 3291,
+        "email": 25809
+      }
+    }
+  ]
+}
