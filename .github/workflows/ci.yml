@@ -30,10 +30,10 @@ jobs:
           distribution: 'temurin'
 
       # Step 3: Modify config.properties with secrets
-      - name: Update config.properties with secrets
-        run: |
-          sed -i "s/USER_NAME/${{ secrets.USER_NAME }}/g" src/test/resources/config/configuration.properties
-          sed -i "s/ACCESS_KEY/${{ secrets.ACCESS_KEY }}/g" src/test/resources/config/configuration.properties
+#      - name: Update config.properties with secrets
+#        run: |
+#          sed -i "s/USER_NAME/${{ secrets.USER_NAME }}/g" src/test/resources/config/configuration.properties
+#          sed -i "s/ACCESS_KEY/${{ secrets.ACCESS_KEY }}/g" src/test/resources/config/configuration.properties
 
       # Step 4: Cache Maven dependencies
       - name: Cache Maven dependencies
