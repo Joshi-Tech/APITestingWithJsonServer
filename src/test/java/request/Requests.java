@@ -35,4 +35,8 @@ public class Requests {
                 .when();
         return requestSpecification;
     }
+
+    public static void main(String[] args) {
+        System.out.println();
+    }
 }

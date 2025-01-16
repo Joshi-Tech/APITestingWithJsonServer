@@ -40,12 +40,7 @@ public class Responses {
     }
 
     public static void main(String[] args) {
-        //System.out.println(getResponse().body().asString());
-        List<String> list = getResponse().jsonPath().getList("contact.phone");
-        System.out.println(list.get(3));
-        //System.out.println(patchResponse().body());
-        // System.out.println(patchResponse("e6ae").body());
-        // System.out.println(deleteResource("e6ae"));
+        System.out.println(postResponse().getBody().asString());;
     }
 }
 

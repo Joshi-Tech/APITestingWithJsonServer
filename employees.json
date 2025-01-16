@@ -43,49 +43,7 @@
       }
     },
     {
-      "id": "1e34",
-      "contact": {
-        "phone": "7878998989",
-        "email": "harishNNNN.sharma@example.com"
-      },
-      "name": "Harish Sharma",
-      "position": "Mechanical Engineer",
-      "department": "Engineering",
-      "salary": {
-        "phone": 3291,
-        "email": 25809
-      }
-    },
-    {
-      "id": "7b4d",
-      "contact": {
-        "phone": "7878998989",
-        "email": "harishNNNN.sharma@example.com"
-      },
-      "name": "Harish Sharma",
-      "position": "Mechanical Engineer",
-      "department": "Engineering",
-      "salary": {
-        "phone": 3291,
-        "email": 25809
-      }
-    },
-    {
-      "id": "9a03",
-      "contact": {
-        "phone": "7878998989",
-        "email": "harishNNNN.sharma@example.com"
-      },
-      "name": "Harish Sharma",
-      "position": "Mechanical Engineer",
-      "department": "Engineering",
-      "salary": {
-        "phone": 3291,
-        "email": 25809
-      }
-    },
-    {
-      "id": "c3f9",
+      "id": "b87d",
       "contact": {
         "phone": "7878998989",
         "email": "harishNNNN.sharma@example.com"
