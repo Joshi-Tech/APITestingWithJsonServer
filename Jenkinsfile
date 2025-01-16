@@ -7,7 +7,7 @@ pipeline {
         stage("Checkout QA") {
             steps {
                 echo "Checking out QA branch"
-                url: "${REPO_URL}"
+                git branch: 'main', url: "${REPO_URL}"
             }
         }
         stage("Test QA") {
@@ -17,3 +17,4 @@ pipeline {
             }
         }
     }
+}
