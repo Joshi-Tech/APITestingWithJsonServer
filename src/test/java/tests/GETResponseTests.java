@@ -22,6 +22,6 @@ public class GETResponseTests {
         Assert.assertEquals(getResourceBundle().getString("get.employee.bonus"), getValueOfSalaryOrContact("1", "salary", "bonus"));
         Assert.assertEquals(getResourceBundle().getString("get.employee.base"), getValueOfSalaryOrContact("1", "salary", "base"));
         Assert.assertEquals(getResourceBundle().getString("get.employee.email"), getValueOfSalaryOrContact("1", "contact", "email"));
-        Assert.assertEquals(getResourceBundle().getString("get.employee.phone"), getValueOfSalaryOrContact("1", "contact", "phone"));
+        Assert.assertEquals(getResourceBundle().getString("get.employee.phone"), getValueOfSalaryOrContact("3", "contact", "phone"));
     }
 }
